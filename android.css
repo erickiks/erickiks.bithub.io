@@ -1,0 +1,337 @@
+/*
+ * Android vermelho
+ * Por: Leandromeda (Leandro Gaudio Rosa)
+ */
+ body{
+    background-color: rgb(70, 72, 72);
+ }
+
+ table{  
+	margin: 100px auto;
+ }
+ 
+    div {margin: 0; padding: 0;}
+    div div {background: #ff0000; position: relative;}
+
+.android{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+	
+}
+
+.head{
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eye, .right_eye {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eye {left: 50px;}
+.right_eye {right: 50px;}
+
+.left_ant, .right_ant{
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_ant {
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_ant {
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.body{
+	width: 220px; height: 184px;
+	top: 40px;
+	
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_arm, .right_arm, .left_leg, .right_leg {
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_arm, .right_arm {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_leg, .right_leg {
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_arm {left: -58px;}
+.right_arm {right: -58px;}
+.left_leg {left: 45px;}
+.right_leg {right: 45px;}
+
+.head:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_arm:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_arm:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
+/*
+ * Android preto
+ * Por: Leandromeda (Leandro Gaudio Rosa)
+ */
+
+.androidB{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+}
+
+.headB{
+	width: 220px; height: 100px;
+    background: rgb(81, 255, 0);
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eyeB, .right_eyeB {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eyeB {left: 50px;}
+.right_eyeB {right: 50px;}
+
+.left_antB, .right_antB{
+    background: rgb(81, 255, 0);
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_antB {
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_antB {
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.bodyB{
+    background: rgb(81, 255, 0);
+	width: 220px; height: 184px;
+	top: 40px;
+	
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_armB, .right_armB, .left_legB, .right_legB {
+    background: rgb(81, 255, 0);
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_armB, .right_armB {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_legB, .right_legB {
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_armB {left: -58px;}
+.right_armB {right: -58px;}
+.left_legB {left: 45px;}
+.right_legB {right: 45px;}
+
+.headB:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_armB:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_armB:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
+/*
+ * Android azul
+ * Por: Leandromeda (Leandro Gaudio Rosa)
+ */
+
+ .androidC{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+}
+
+.headC{
+	width: 220px; height: 100px;
+    background: rgb(0, 8, 255);
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eyeC, .right_eyeC {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eyeC {left: 50px;}
+.right_eyeC {right: 50px;}
+
+.left_antC, .right_antC{
+    background: rgb(0, 8, 255);
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_antC {
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_antC {
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.bodyC{
+    background: rgb(0, 8, 255);
+	width: 220px; height: 184px;
+	top: 40px;
+	
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_armC, .right_armC, .left_legC, .right_legC {
+    background: rgb(0, 8, 255);
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_armC, .right_armC {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_legC, .right_legC {
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_armC {left: -58px;}
+.right_armC {right: -58px;}
+.left_legC {left: 45px;}
+.right_legC {right: 45px;}
+
+.headC:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_armC:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_armC:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
