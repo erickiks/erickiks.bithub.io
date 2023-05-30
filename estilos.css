@@ -1,0 +1,48 @@
+body{
+    color: rgb(49, 53, 54);
+    font-family: Verdana, Tahoma, Times;
+    font-size: 45px;
+  }
+  
+  .a{
+    color: rgb(231, 57, 135);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+  }
+  
+  .b{
+    color: rgb(47, 217, 226);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  .c{
+    color: rgb(255, 221, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  .d{
+    color: rgba(0, 0, 0, 0.741);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  .e{
+   background-color: rgb(255, 0, 0);
+   color: #000;
+   border: 1px rgb(255, 0, 0);
+   padding:10px;
+  }
+  .f{
+    border-radius: 50%;
+
+  }
+  
+ .w{
+  background-color: #d00acd; /* Green */
+  border: none;
+  color: rgb(190, 212, 23);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
