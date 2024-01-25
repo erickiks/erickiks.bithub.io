@@ -19,11 +19,10 @@ body{
   
   .b{
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(211, 0, 0);
-    font-size: 2em; color: #69060b;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    font-size: 2em; color: #410a0d;
     color: rgb(0, 0, 0);
-    font-family: 'BROKEREN MIRING', sans-serif;
-font-family: 'BROKEREN', sans-serif;
+    font-family: 'Grotesque BRK', sans-serif;                                              
     font-size: 26px;
   }
   .c{
@@ -80,4 +79,9 @@ font-family: 'BROKEREN', sans-serif;
   content: "";
   clear: both;
   display: table;
+}
+
+.z{
+  font-family: 'resident evil characters', sans-serif;
+  font-size: 150px;
 }
